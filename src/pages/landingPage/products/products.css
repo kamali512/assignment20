@@ -1,0 +1,32 @@
+.car {
+  display: flex;
+  flex-wrap: wrap;
+}
+.single {
+  height: 290px !important;
+  width: 250px !important;
+}
+.wholeCard {
+  padding: 25px !important;
+  margin: 65px !important;
+  height: 450px !important;
+  width: 300px !important;
+}
+@media screen and (max-width: 568px) {
+  .single {
+    height: 190px !important;
+    width: 150px !important;
+  }
+  .wholeCard {
+    padding: 25px !important;
+    margin: 85px !important;
+    height: 370px !important;
+    width: 200px !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .single {
+    height: 190px !important;
+    width: 150px !important;
+  }
+}
